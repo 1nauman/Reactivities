@@ -11,7 +11,6 @@ import {
   HubConnectionBuilder,
   LogLevel,
 } from "@microsoft/signalr";
-import { error } from "console";
 
 export default class ActivityStore {
   rootStore: RootStore;
